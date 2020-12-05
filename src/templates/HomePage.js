@@ -12,7 +12,6 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
       large
       title={title}
       subtitle={subtitle}
-      backgroundImage={featuredImage}
     />
 
     <section className="section">
