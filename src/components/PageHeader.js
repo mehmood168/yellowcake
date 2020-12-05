@@ -10,6 +10,7 @@ const PageHeader = ({
   subtitle,
   backgroundImage,
   large,
+  button,
   className = ''
 }) => {
   if (large) className += ' PageHeader-large'
@@ -29,6 +30,7 @@ const PageHeader = ({
         {subtitle && (
           <Content className="PageHeader--Subtitle" src={subtitle} />
         )}
+        <button className="Button">Book free consultation</button>
       </div>
     </div>
   )
