@@ -3,15 +3,15 @@ import React from 'react'
 import './Form.css'
 
 export default ({
-  name = 'Simple Form',
+  name = 'contactform',
   subject = '', // optional subject of the notification email
-  action = ''
+  action = '/'
 }) => (
   <form
     className='Form'
     name={name}
     action={action}
-    data-netlify=''
+    data-netlify='contactform'
     data-netlify-honeypot='_gotcha'
   >
     <label className='Form--Label'>

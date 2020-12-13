@@ -31,7 +31,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, button 
           <div className="PostSection--Grid">
             <Link to='#' className={`PostCard`}>
               <div className="PostCard--Image relative">
-                <Image background src={featuredImage} />
+                <Image background src="https://ucarecdn.com/54321738-7eef-4af6-8f41-37b3b646d974/" />
               </div>
 
               <div className="PostCard--Content">
@@ -44,7 +44,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, button 
             </Link>
             <Link to='#' className={`PostCard`}>
               <div className="PostCard--Image relative">
-                <Image background src={featuredImage} />
+                <Image background src="https://ucarecdn.com/eba2cdba-c39d-48ac-aaa4-e76fa9462597/" />
               </div>
 
               <div className="PostCard--Content">
@@ -57,7 +57,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, button 
             </Link>
             <Link to='#' className={`PostCard`}>
               <div className="PostCard--Image relative">
-                <Image background src={featuredImage} />
+                <Image background src="https://ucarecdn.com/81460d53-c8a5-4d64-8a0f-a1dd5e21be3e/" />
               </div>
 
               <div className="PostCard--Content">
@@ -70,7 +70,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, button 
             </Link>
             <Link to='#' className={`PostCard`}>
               <div className="PostCard--Image relative">
-                <Image background src={featuredImage} />
+                <Image background src="https://ucarecdn.com/4aee9138-5f18-490d-bf9e-ca8ee1c3c9fa/" />
               </div>
 
               <div className="PostCard--Content">
@@ -84,29 +84,29 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, button 
 
             <Link to='#' className={`PostCard`}>
               <div className="PostCard--Image relative">
-                <Image background src={featuredImage} />
+                <Image background src="https://ucarecdn.com/4cde4750-e572-4dd2-8e10-9c479eee9e87/" />
               </div>
 
               <div className="PostCard--Content">
-                <h3 className="PostCard--Title">Custom Development</h3>
+                <h3 className="PostCard--Title">Landing Page</h3>
                 {/* <div className="PostCard--Category">
                   Custom website development
           </div> */}
-                <div className="PostCard--Excerpt">Fix an existing app or develop from scratch</div>
+                <div className="PostCard--Excerpt">Increase conversions through an awesome landing page</div>
               </div>
             </Link>
 
             <Link to='#' className={`PostCard`}>
               <div className="PostCard--Image relative">
-                <Image background src={featuredImage} />
+                <Image background src="https://ucarecdn.com/5d0da9b9-d833-465c-b298-124f44ad8a2e/" />
               </div>
 
               <div className="PostCard--Content">
-                <h3 className="PostCard--Title">Custom Integration</h3>
+                <h3 className="PostCard--Title">Custom</h3>
                 {/* <div className="PostCard--Category">
                   Custom website development
           </div> */}
-                <div className="PostCard--Excerpt">Integrate custom software into an existing app</div>
+                <div className="PostCard--Excerpt">Custom Requirements</div>
               </div>
             </Link>
           </div>

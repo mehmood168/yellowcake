@@ -9,7 +9,7 @@ class Form extends React.Component {
   static defaultProps = {
     name: 'contactform',
     subject: '', // optional subject of the notification email
-    action: '',
+    action: '/',
     successMessage: 'Thanks for reaching out, we will get back to you within 12 hours',
     errorMessage:
       'There is a problem, your message has not been sent, please try contacting us via email at mehmood.memon168@gmail.com'

@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-
+import { Link } from 'gatsby'
 import Image from './Image'
 import Content from './Content'
 import './PageHeader.css'
@@ -30,7 +30,7 @@ const PageHeader = ({
         {subtitle && (
           <Content className="PageHeader--Subtitle" src={subtitle} />
         )}
-        <button className="Button">Book free consultation</button>
+        <Link to="/contact/"><button className="Button">Book free consultation</button></Link>
       </div>
     </div>
   )
